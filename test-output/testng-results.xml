@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12306" started-at="2021-06-27T19:48:45Z" finished-at="2021-06-27T19:48:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="12306" started-at="2021-06-27T19:48:45Z" finished-at="2021-06-27T19:48:57Z">
+      <class name="demo.TestClass2">
+        <test-method status="PASS" signature="B1()[pri:0, instance:demo.TestClass2@55f3ddb1]" name="B1" duration-ms="6993" started-at="2021-06-28T01:18:45Z" finished-at="2021-06-28T01:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B1 -->
+        <test-method status="PASS" signature="B2()[pri:0, instance:demo.TestClass2@55f3ddb1]" name="B2" duration-ms="2" started-at="2021-06-28T01:18:52Z" finished-at="2021-06-28T01:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B2 -->
+        <test-method status="PASS" signature="B3()[pri:0, instance:demo.TestClass2@55f3ddb1]" name="B3" duration-ms="3" started-at="2021-06-28T01:18:52Z" finished-at="2021-06-28T01:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B3 -->
+        <test-method status="PASS" signature="B4()[pri:0, instance:demo.TestClass2@55f3ddb1]" name="B4" duration-ms="3" started-at="2021-06-28T01:18:52Z" finished-at="2021-06-28T01:18:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B4 -->
+      </class> <!-- demo.TestClass2 -->
+      <class name="demo.TestCLass">
+        <test-method status="PASS" signature="A1()[pri:0, instance:demo.TestCLass@29774679]" name="A1" duration-ms="5272" started-at="2021-06-28T01:18:52Z" finished-at="2021-06-28T01:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A1 -->
+        <test-method status="PASS" signature="A2()[pri:0, instance:demo.TestCLass@29774679]" name="A2" duration-ms="1" started-at="2021-06-28T01:18:57Z" finished-at="2021-06-28T01:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A2 -->
+        <test-method status="PASS" signature="A3()[pri:0, instance:demo.TestCLass@29774679]" name="A3" duration-ms="1" started-at="2021-06-28T01:18:57Z" finished-at="2021-06-28T01:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A3 -->
+        <test-method status="PASS" signature="A4()[pri:0, instance:demo.TestCLass@29774679]" name="A4" duration-ms="1" started-at="2021-06-28T01:18:57Z" finished-at="2021-06-28T01:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A4 -->
+      </class> <!-- demo.TestCLass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
