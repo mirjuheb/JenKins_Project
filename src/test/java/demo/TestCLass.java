@@ -31,6 +31,18 @@ public class TestCLass {
 	public void A2()
 	{
 		System.out.println("Second test cases executed");
+		System.out.println("First test cases executed");
+		
+		System.out.println("test1");
+	    String path=System.getProperty("user.dir");
+	    System.out.println("the path is: "+path);
+	    System.setProperty("webdriver.chrome.driver",path+"/drivers/chromedriver.exe");
+	    //C:\Users\alimi\workspace12\Jenkins_practice\drivers
+	    driver =new ChromeDriver();
+	    driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	    driver.manage().window().maximize();
+	    driver.get("http://www.gmail.com");
+	    driver.quit();
 	}
 	
 	@Test
